@@ -1,6 +1,6 @@
 # about-me
 ## repository links
-*https://shivani_ta.github.io/about-me/
+*https://shivani-ta.github.io/about-me/
 
 *https://github.com/shivani-ta/about-me
 ## about
