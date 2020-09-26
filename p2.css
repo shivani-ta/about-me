@@ -1,0 +1,279 @@
+/* ::placeholder{
+    padding-left: 16px;
+} */
+
+h3 {
+     color: #BDBDBD;
+}
+
+li{
+    list-style: none outside none;
+}
+
+input:focus{
+    border-color: #3700B3;
+}
+
+.navContentContainer a.active {
+    color: white;
+    border-bottom: 3px solid white;
+    padding: 4px;
+  }
+
+ li a:hover {
+    border: 0px;
+    color: white;
+  }
+
+.titleContainer{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+}
+
+.profilePic{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-left: 32px;
+}
+
+.selfImgContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+}
+
+.selfImg{
+    transform: rotate(270deg);
+    width: 30%;
+    margin-left: 24px;
+    align-self: center;
+   
+}
+
+.nameLbl{
+    color: #424242;
+}
+
+.title{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    margin-left: 16px;
+}
+
+tr.techTableRow {
+    margin: 24px;
+  }
+
+.body{
+    background-color: #F5FAFD;
+}
+
+.titleLbl{
+    color: #BDBDBD;
+    font-size: 12px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    background-color: #3700B3;
+}
+
+.navContainer{
+    display: flex;
+    width: 50%;
+    background: whitek;
+    background: transparent;
+    flex-direction: row;
+}
+
+.list{
+    color: white;
+}
+
+dl, ol, ul {
+    /* margin-top: 0; */
+    /* margin-bottom: 1rem; */
+}
+
+.navBar{
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navContentContainer{
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.article1Img{
+    width: 30% !important;
+}
+
+.rowContainer{
+    display: flex;
+    margin-top: 16px;
+    margin-left: 25%;
+    margin-right: 25%;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    border-radius: 6px;
+}
+
+.calcContainer{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 128px;
+    margin-bottom: 128px;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    border-radius: 6px;
+}
+
+.articleRowContainer{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    flex-direction: row;
+}
+
+.articleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.articleDescContainer{
+    display: flex;
+    width: 60%;
+    margin: 24px;
+}
+
+.contactForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#input #emailInput #subjectInput #descInput{
+    margin: 24px;
+    width: 60%;
+    align-self: center;
+    /* border: 0px 0px 4px 0px; */
+    padding-left:16px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+
+#label{
+    font-size: 18px;
+    text-align: center;
+    align-self: center;
+}
+
+.techTable{
+    margin-top: 84px;
+    display: flex;
+    align-self: center;
+    margin-left: 86px;
+    border-spacing: 24px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+.techTableTd{
+    padding: 16px;
+}
+
+.calcInput{
+    margin: 24px;
+    width: 45%;
+    align-self: center;
+    /* border: 0px 0px 4px 0px; */
+    padding-left:16px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;  width: 45%;
+}
+
+.contactLabel{
+    font-size: 18px;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+}
+
+#button{
+    margin: 24px;
+    border-radius: 5%;
+    height: 36px;
+    width: 20%;
+    align-self: center;
+    border: 0px;
+    background: #3700B3;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+    color: white;
+}
+
+.icon{
+    height: 50px;
+    object-fit: contain ;
+    margin-bottom: 8px;
+}
+
+.iconContainer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.iconSection{
+    height: 40vh;
+    width: 100%;
+    margin-top: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
