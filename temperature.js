@@ -6,13 +6,3 @@ function temperatureConverter() {
   }
 
 
-function storeContact(){
-  var email = document.getElementById("emailInput").value;
-  var subject = document.getElementById("subjectInput").value;
-  var desc = document.getElementById("descInput").value;
-  if(email || subject || desc != ""){
-      localStorage.setItem("email", email);
-      localStorage.setItem("subject", subject);
-      localStorage.setItem("desc", desc);
-  }
-}
