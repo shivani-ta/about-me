@@ -20,7 +20,7 @@ languages
 ## recommended resources
 *  (https://www.geeksforgeeks.org/)
 
-*https://www.youtube.com/user/GitHubGuides )    
+*  (https://www.youtube.com/user/GitHubGuides )    
 
 * (https://www.budibase.com/blog/web-application-development/)
 ## contributors
