@@ -1,9 +1,10 @@
-function temperatureConverter() {
-    valNum = document.getElementById("tempInput").value
-    console.log(parseInt(valNum),"valueeeee")
-    document.getElementById("outputCelsius").innerHTML =  (valNum-32) / 1.8;
-    event.preventDefault()
-  }
+function square()
+{
+        var x = document.getElementById("x1").value;
+        document.getElementById("result").innerHTML = x*x;
+        event.preventDefault()
+}
+
 
   function getQuote(){
     var quotes = ['Change the world by being yourself. - Amy Poehler',
