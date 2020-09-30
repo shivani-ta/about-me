@@ -52,51 +52,59 @@
               <li><a class="list" href="contact.html">Contact me</a></li>
               <li>
                 <a class="list active" href="calculator.html">Calculator</a>
-                <li><a class="list" href="calculator.html">Qtest</a></li>
               </li>
+              <li><a class="list" href="qunit.html">QUnit</a></li>
             </ul>
           </nav>
         </div>
       </header>
 
       <div class="calcContainer">
-        <h4 id="label">Convert temperature from celcius to fahrenheit</h4>
+        <h4 id="label">  Enthe the number you want to square</h4>
         <form class="contactForm">
           <input
-            id="tempInput"
+            id="x1"
             class="mt-4 calcInput"
-            placeholder="Enter the temperature in celcius"
+            placeholder="Enter the number"
           />
-          <label id="outputCelsius" class="text-center"></label>
-          <button id="button" onclick="temperatureConverter()">Submit</button>
+          <label id="result" class="text-center"></label>
+          <button id="button" onclick="square()">Submit</button>
         </form>
         <br>
         <br><br>
        
       </div>
       <div class="selfImgContainer">
-        <button onclick="loadDoc()" >Ajax</button>
+        <button onclick="loadXMLDoc()" >Ajax</button>
         <div class="ajax"><label id="ajax"></label></div>
       </div>
-      <script>
-        function loadDoc() {
-          var xhttp = new XMLHttpRequest();
-          xhttp.onreadystatechange = function() {
-            if (xhttp.readyState == 4 && xhttp.status == 200) {
-              document.getElementById("demo").innerHTML = xhttp.responseText;
-            }
-          };
-          xhttp.open("GET", "test.txt", true);
-          xhttp.send();
-        }
+      <script type="text/javascript">
+        function loadXMLDoc() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == XMLHttpRequest.DONE) {   // XMLHttpRequest.DONE == 4
+                   if (xmlhttp.status == 200) {
+                       document.getElementById("ajax").innerHTML = xmlhttp.responseText;
+                   }
+                   else if (xmlhttp.status == 400) {
+                      alert('There was an error 400');
+                   }
+                   else {
+                       alert('something else other than 200 was returned');
+                   }
+                }
+            };
         
+            xmlhttp.open("GET", "test.txt", true);
+            xmlhttp.send();
+        }
         </script>
         <div class="selfImgContainer">
           <button onclick="getQuote()">Fetch quote</button>
         <div class="quote">  <label id="quote"></label></div>
         </div>
         
-        
+         <button id="button" onclick="getQuote()">quote</button>
     </body>
   </div>
   <footer>
